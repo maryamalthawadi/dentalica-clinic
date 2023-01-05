@@ -1,0 +1,262 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="dento - Dentist &amp; Clinic">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>dentalica Clinic</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="{% static 'website/img/core-img/favicon.ico' %}">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="{% static 'website/css/style.css' %}">
+
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preload-content">
+      <div id="dento-load"></div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area">
+    <!-- Top Header Area -->
+    <div class="top-header-area">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <!-- Top Content -->
+          <div class="col-6 col-md-9 col-lg-8">
+            <div class="top-header-content">
+              <a href="#" data-toggle="tooltip" data-placement="bottom" title="Manama, Bahrain"><i class="fa fa-map-marker"></i> <span>Manama, Bahrain</span></a>
+              <a href="#" data-toggle="tooltip" data-placement="bottom" title="infoclinic@gmail.com"><i class="fa fa-envelope"></i> <span>dentalicaclinic@gmail.com</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Header End -->
+
+    <!-- Main Header Start -->
+    <div class="main-header-area">
+      <div class="classy-nav-container breakpoint-off">
+        <div class="container">
+          <!-- Classy Menu -->
+          <nav class="classy-navbar justify-content-between" id="dentoNav">
+
+            <!-- Logo -->
+            <a class="nav-brand" href="home.html"><img src="{% static 'website/img/core-img/logo1.png' %}" alt=""></a>
+            <!-- Navbar Toggler -->
+            <div class="classy-navbar-toggler">
+              <span class="navbarToggler"><span></span><span></span><span></span></span>
+            </div>
+
+            <!-- Menu -->
+            <div class="classy-menu">
+
+              <!-- Close Button -->
+              <div class="classycloseIcon">
+                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+              </div>
+
+              <!-- Nav Start -->
+              <div class="classynav">
+                <ul id="nav">
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="service.html">Service</a></li>
+                  <li><a href="booking.html">booking</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="call.html">Emergancy call</a></li>
+                </ul>
+              </div>
+              <!-- Nav End -->
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Breadcrumb Area Start ***** -->
+  <div class="breadcumb-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/12.jpg' %});">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12">
+          <h2 class="title">Service</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="breadcumb--con">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Service</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Breadcrumb Area End ***** -->
+
+
+    <!-- ***** Services Area Start ***** -->
+    <section class="dento-services-area mt-50 mb-50">
+      <div class="container">
+        <div class="row">
+
+          <!-- Single Service Area -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-service--area text-center mb-50">
+              <div class="icon--">
+                <img src="{% static 'website/img/core-img/s9.png' %}" alt="">
+              </div>
+              <h5>Dental Consulation</h5>
+              <p>Evaluaition and disscusion of the oral and ovarall teeth health. Our doctor will riveiw client dental x-ray and disscus findings.</p>
+            </div>
+          </div>
+
+          <!-- Single Service Area -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-service--area text-center mb-50">
+              <div class="icon--">
+                <img src="{% static 'website/img/core-img/s6.png' %}" alt="">
+              </div>
+              <h5>Teeth Cleaning</h5>
+              <p>Deep Cleaning client teeth to remove plaque and trator around gum line, as well as in between teeth</p>
+            </div>
+          </div>
+
+          <!-- Single Service Area -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-service--area text-center mb-50">
+              <div class="icon--">
+                <img src="{% static 'website/img/core-img/s10.png' %}" alt="">
+              </div>
+              <h5>Dental Filling</h5>
+              <p>Dental filling help stop spread of any decy present in a tooth to improve ovarall oral health. The treatment last 7-20 years depands on the filling used</p>
+            </div>
+          </div>
+
+            <!-- Single Service Area -->
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="single-service--area text-center mb-50">
+                <div class="icon--">
+                  <img src="{% static 'website/img/core-img/s8.png' %}" alt="">
+                </div>
+                <h5>Braces</h5>
+                <p>Dental tools that help correct proplems with client teeth. For instense, crowding, crooked teeth, or teeth that are out of aligment</p>
+              </div>
+            </div>
+
+          <!-- Single Service Area -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-service--area text-center mb-50">
+              <div class="icon--">
+                <img src="{% static 'website/img/core-img/s6.png' %}" alt="">
+              </div>
+              <h5>Cosmatic Whitening</h5>
+              <p>Tooth whitening is the ideal way to enhance the beauty of your smile. It is a simple non-invasive dental treatment used to changed the color of natural tooth enamel</p>
+            </div>
+          </div>
+
+          <!-- Single Service Area -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-service--area text-center mb-50">
+              <div class="icon--">
+                <img src="{% static 'website/img/core-img/s7.png' %}" alt="">
+              </div>
+              <h5>Dental Implants</h5>
+              <p>Dental implents are permanent tooth root replacment and they will be surgically placed in the client jowbone</p>
+            </div>
+          </div>
+
+          <div class="col-12 text-center">
+            <a href="booking.html" class="btn dento-btn">Book Appointment</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Services Area End ***** -->
+
+  <!-- ***** Footer Area Start ***** -->
+  <footer class="footer-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/3.jpg' %});">
+    <div class="container">
+      <div class="row">
+        <!-- Single Footer Widget -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="single-footer-widget">
+            <h5 class="widget-title">Clinic Information</h5>
+            <div class="footer-contact">
+              <p><i class="icon_pin"></i>Bahrain, Manama</p>
+              <p><i class="icon_phone"></i>+973 177 22 444</p>
+              <p><i class="icon_mail"></i> dentalicaclinic@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single Footer Widget -->
+        <div class="col-12 col-sm-6 col-lg">
+          <div class="single-footer-widget">
+            <!-- Widget Title -->
+            <h5 class="widget-title">Opening Hours</h5>
+
+            <!-- Opening Hours -->
+            <ul class="opening-hours">
+              <li><span>Sun - Tue - Thu</span> <span>8AM - 4PM</span></li>
+              <li><span>Mon - Wed - Sat</span> <span>4PM - 10PM</span></li>
+              <li><span>Friday</span> <span>Clinic is closed</span></li>
+            </ul>
+
+          </div>
+        </div>
+
+        <!-- Single Footer Widget -->
+        <div class="col-12 col-sm-6 col-lg">
+          <div class="single-footer-widget">
+            <!-- Widget Title -->
+            <h5 class="widget-title">Newsletter</h5>
+
+            <p>We will send out weekly newest article and some great offers</p>
+            <!-- Newsletter Form -->
+            <div class="footer-newsletter-form">
+              <form action="#" method="post">
+                <input type="email" name="nl-email" value="" placeholder="Email Address">
+                <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ***** Footer Area End ***** -->
+
+  <!-- ******* All JS ******* -->
+  <!-- jQuery js -->
+  <script src="{% static 'website/js/jquery.min.js' %}"></script>
+  <!-- Popper js -->
+  <script src="{% static 'website/js/popper.min.js' %}"></script>
+  <!-- Bootstrap js -->
+  <script src="{% static 'website/js/bootstrap.min.js' %}"></script>
+  <!-- All js -->
+  <script src="{% static 'website/js/dento.bundle.js' %}"></script>
+  <!-- Active js -->
+  <script src="{% static 'website/js/default-assets/active.js' %}"></script>
+
+</body>
+
+</html>

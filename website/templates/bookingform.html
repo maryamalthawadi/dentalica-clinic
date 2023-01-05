@@ -1,0 +1,223 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="dento - Dentist &amp; Clinic">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>dentalica Clinic</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="{% static 'website/img/core-img/favicon.ico' %}">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="{% static 'website/css/style.css' %}">
+
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preload-content">
+      <div id="dento-load"></div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area">
+    <!-- Top Header Area -->
+    <div class="top-header-area">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <!-- Top Content -->
+          <div class="col-6 col-md-9 col-lg-8">
+            <div class="top-header-content">
+              <a href="#" data-toggle="tooltip" data-placement="bottom" title="Manama, Bahrain"><i class="fa fa-map-marker"></i> <span>Manama, Bahrain</span></a>
+              <a href="#" data-toggle="tooltip" data-placement="bottom" title="infoclinic@gmail.com"><i class="fa fa-envelope"></i> <span>dentalicaclinic@gmail.com</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Header End -->
+
+    <!-- Main Header Start -->
+    <div class="main-header-area">
+      <div class="classy-nav-container breakpoint-off">
+        <div class="container">
+          <!-- Classy Menu -->
+          <nav class="classy-navbar justify-content-between" id="dentoNav">
+
+            <!-- Logo -->
+            <a class="nav-brand" href="home.html"><img src="{% static 'website/img/core-img/logo1.png' %}" alt=""></a>
+            <!-- Navbar Toggler -->
+            <div class="classy-navbar-toggler">
+              <span class="navbarToggler"><span></span><span></span><span></span></span>
+            </div>
+
+            <!-- Menu -->
+            <div class="classy-menu">
+
+              <!-- Close Button -->
+              <div class="classycloseIcon">
+                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+              </div>
+
+              <!-- Nav Start -->
+              <div class="classynav">
+                <ul id="nav">
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="service.html">Service</a></li>
+                  <li><a href="booking.html">booking</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="call.html">Emergancy call</a></li>
+                </ul>
+              </div>
+              <!-- Nav End -->
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+<!-- ***** Breadcrumb Area Start ***** -->
+<div class="breadcumb-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/12.jpg' %});">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12">
+        <h2 class="title">Booking form</h2>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="breadcumb--con">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home </a></li>
+            <li class="breadcrumb-item active" aria-current="page">Booking form</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ***** Breadcrumb Area End ***** -->
+
+  <!-- Book An Oppointment Area Start -->
+  <section class="book-an-oppointment-area section-padding-100 bg-img ">
+    <div class="container">
+      <div class="row">
+        <!-- Section Heading -->
+        <div class="col-12">
+          <div class="section-heading text-center">
+            <h2>Thank you for booking an appointment with us!</h2>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <!-- Appointment Form -->
+          <div class="appointment-form">
+            <center>
+              <strong>Your Name:</strong><p>{{ your_name }}</p>
+              <strong>Your Phone:</strong><p>{{ your_phone }}</p>
+              <strong>Your Email:</strong><br><p>{{ your_email }}</p>
+              <strong>Chossen Service:</strong><br><p>{{ your_service }}</p>
+              <strong>Chossen Day:</strong><br><p>{{ your_day }}</p>
+              <strong>Choosen Time:</strong><br><p>{{ your_time }}</p>
+              <strong>Your message:</strong><br><p>{{ your_message }}</p>
+              <br>
+              <strong>Your appointment will be confirmed through phone and email, thank you in advance!</strong>
+            </center>
+          </div>
+          <br><br>
+          <div class="col-12 text-center">
+            <a href="home.html" class="btn dento-btn">Home</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Book An Oppointment Area End -->
+
+  <br>
+
+  <!-- ***** Footer Area Start ***** -->
+  <footer class="footer-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/3.jpg' %});">
+    <div class="container">
+      <div class="row">
+        <!-- Single Footer Widget -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="single-footer-widget">
+            <h5 class="widget-title">Clinic Information</h5>
+            <div class="footer-contact">
+              <p><i class="icon_pin"></i>Bahrain, Manama</p>
+              <p><i class="icon_phone"></i>+973 177 22 444</p>
+              <p><i class="icon_mail"></i> dentalicaclinic@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single Footer Widget -->
+        <div class="col-12 col-sm-6 col-lg">
+          <div class="single-footer-widget">
+            <!-- Widget Title -->
+            <h5 class="widget-title">Opening Hours</h5>
+
+            <!-- Opening Hours -->
+            <ul class="opening-hours">
+              <li><span>Sun - Tue - Thu</span> <span>8AM - 4PM</span></li>
+              <li><span>Mon - Wed - Sat</span> <span>4PM - 10PM</span></li>
+              <li><span>Friday</span> <span>Clinic is closed</span></li>
+            </ul>
+
+          </div>
+        </div>
+
+        <!-- Single Footer Widget -->
+        <div class="col-12 col-sm-6 col-lg">
+          <div class="single-footer-widget">
+            <!-- Widget Title -->
+            <h5 class="widget-title">Newsletter</h5>
+
+            <p>We will send out weekly newest article and some great offers</p>
+            <!-- Newsletter Form -->
+            <div class="footer-newsletter-form">
+              <form action="#" method="post">
+                <input type="email" name="nl-email" value="" placeholder="Email Address">
+                <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ***** Footer Area End ***** -->
+
+  <!-- ******* All JS ******* -->
+  <!-- jQuery js -->
+  <script src="{% static 'website/js/jquery.min.js' %}"></script>
+  <!-- Popper js -->
+  <script src="{% static 'website/js/popper.min.js' %}"></script>
+  <!-- Bootstrap js -->
+  <script src="{% static 'website/js/bootstrap.min.js' %}"></script>
+  <!-- All js -->
+  <script src="{% static 'website/js/dento.bundle.js' %}"></script>
+  <!-- Active js -->
+  <script src="{% static 'website/js/default-assets/active.js' %}"></script>
+
+</body>
+
+</html>
